@@ -1,5 +1,6 @@
 from appliances.kitchen.utility.refrigerator import Refrigerator
 from appliances.kitchen import CoffeeMaker
+from appliances.kitchen import CanOpener
 from appliances.laundry.dryer import Dryer
 from appliances.laundry.washer import Washer
 from appliances.kitchen.utility.dishwasher import DishWasher
@@ -15,3 +16,6 @@ lg_fridge.make_ice()
 
 mr_coffee = CoffeeMaker("white")
 mr_coffee.make_coffee()
+
+mr_can = CanOpener("white")
+mr_can.open_can()
